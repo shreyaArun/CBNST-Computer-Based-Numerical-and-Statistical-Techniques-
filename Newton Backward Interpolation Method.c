@@ -42,11 +42,11 @@ int main()
         {
             N=N*(u+j-1);
         }
-        y=nebula(Y,n-1-i,n-1,n-1); // y0, /\y0, /\^2 y0, /\^3 y0, ...
-        printf("%f\t",y);
+        y=nebula(Y,n-1-i,n-1,n-1); // y0, \/y0, \/^2 y0, \/^3 y0, ...
+        //printf("%f\t",y);
         y=(float)((N*y)/D);
         sum=sum+y;
-        printf("%f\n",y);
+        //printf("%f\n",y);
     }
     printf("Y[%f] = %f",x,sum); // OUTPUT
     return 0;
