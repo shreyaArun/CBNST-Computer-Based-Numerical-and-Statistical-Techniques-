@@ -38,11 +38,11 @@ int main()
         {
             D=D*j;
         }
-        for(j=1;j<=i;j++) // 1, u, u*(u-1), u*(u-1)*(u-2), ...
+        for(j=1;j<=i;j++) // 1, u, u*(u+1), u*(u+1)*(u+2), ...
         {
             N=N*(u+j-1);
         }
-        y=nebula(Y,n-1-i,n-1,n-1); // y0, \/y0, \/^2 y0, \/^3 y0, ...
+        y=nebula(Y,n-1-i,n-1,n-1); // yn, \/yn, \/^2 yn, \/^3 yn, ...
         //printf("%f\t",y);
         y=(float)((N*y)/D);
         sum=sum+y;
