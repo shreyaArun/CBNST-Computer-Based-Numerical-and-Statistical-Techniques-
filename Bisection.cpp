@@ -13,7 +13,7 @@ inline double fn(double x, int a[], int n)
 
 void input_eqn(int n, int a[])
 {
-    int i;
+    int i ;
     for(i=n;i>=0;i--)
     {
         cout<<"Enter Cofficient of degree "<<i<<" : ";
