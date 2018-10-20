@@ -2,6 +2,7 @@
 #include<math.h>
 using namespace std;
 
+
 inline double fn(double x, int a[], int n)
 {
     int i;
