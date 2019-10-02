@@ -16,7 +16,7 @@ void input_eqn(int n, int a[])
     int i ;
     for(i=n;i>=0;i--)
     {
-        cout<<"Enter Cofficient of degree "<<i<<" : ";
+        cout<<"Enter Cofficient of degree = "<<i<<" : ";
         cin>>a[i];
     }
 }
