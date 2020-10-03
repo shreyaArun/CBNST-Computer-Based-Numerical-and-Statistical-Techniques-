@@ -17,7 +17,7 @@ int main(){
 }
 
 /*How to execute:
-
+##
 parthendo@markus:~/Desktop/Lab/OS lab$ gcc OSlab3_2.c 
 parthendo@markus:~/Desktop/Lab/OS lab$ ./a.out &
 [2] 2738
@@ -40,3 +40,5 @@ parthendo+  2731  0.0  0.0      0     0 pts/4    Z    20:41   0:00 [a.out] <defu
 parthendo+  2738  0.0  0.0   4224   664 pts/4    S    20:41   0:00 ./a.out
 parthendo+  2739  0.0  0.0      0     0 pts/4    Z    20:41   0:00 [a.out] <defunc
 parthendo+  2740  0.0  0.0  37364  3376 pts/4    R+   20:41   0:00 ps aux*/
+
+/*Thankyou!!
